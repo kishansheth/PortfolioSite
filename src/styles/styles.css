@@ -1,0 +1,76 @@
+@charset "UTF-8";
+/* CSS Document */
+
+html, body {
+	background-color: white;
+	font-family: "Arial Bold";
+	height: 100%;
+	margin: 0px;
+	padding: 0px;
+}
+
+/* External Fonts */
+
+@font-face {
+	font-family: "Arial Bold";
+	src: url("fonts/ArialBold.ttf") format("truetype");
+}
+
+@font-face {
+	font-family: "Orator";
+	src: url("fonts/OratorStd.otf") format("truetype");
+}
+
+/* Navigation */
+
+.nav {
+	background-color: black;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	z-index: 10;
+}
+
+.nav a {
+	display: block;
+	float: left;
+	color: white;
+	font-family: "Orator";
+	text-align: center;
+	letter-spacing: 1px;
+	padding: 15px 25px;
+	text-decoration: none;
+	font-size: 17px;
+	transition: .3s;
+}
+
+.nav .active {
+	color: #dddddd;
+}
+
+.nav a:hover {
+	color: #bbbbbb;
+}
+
+.scrolled {
+	background-color: black;
+	transition: 0.3s;
+}
+
+/* Slideshow */
+
+.slideshow {
+	padding-top: 100px;
+	padding-left: 100px;
+	text-align: left;
+	background-image: url(../images/Cloud.jpg);
+	height: 900px;
+	background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.big_text {
+	font-size: 50px;
+	color: white;
+}
