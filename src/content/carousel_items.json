@@ -1,8 +1,21 @@
-[
-    {
-        "date": "",
-        "title": "",
-        "category": "",
-        "description": ""
-    }
-]
+{
+    "content": [
+        {
+            "date": "",
+            "title": "",
+            "category": "",
+            "short_description": "",
+            "long_description": "",
+            "main_image": "",
+            "main_subtitle": "",
+            "other_images": [
+                {
+                    "image": "",
+                    "subtitle": ""
+                }
+            ]
+
+            
+        }
+    ]
+}
